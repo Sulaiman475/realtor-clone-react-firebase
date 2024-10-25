@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: rgb(240, 253, 244);
+}
+
+input[type="password"]::-ms-reveal, /* Internet Explorer */
+input[type="password"]::-ms-clear,  /* Internet Explorer */
+input[type="password"]::-webkit-inner-spin-button, /* Chrome, Safari */
+input[type="password"]::-webkit-outer-spin-button,
+input[type="password"]::-webkit-clear-button, /* Chrome, Safari */
+input[type="password"]::-webkit-textfield-decoration-container { 
+    display: none !important;
+}
